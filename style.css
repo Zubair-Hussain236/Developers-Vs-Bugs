@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #282c34;
+    color: #61dafb;
+}
+
+.game-container {
+    text-align: center;
+}
+
+#bugArea {
+    width: 300px;
+    height: 400px;
+    border: 2px solid #61dafb;
+    background-color: #1e1e1e;
+    position: relative;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.bug {
+    position: absolute;
+    padding: 5px;
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 3px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+.bug:hover {
+    transform: scale(1.2);
+}
